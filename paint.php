@@ -39,6 +39,7 @@
          // get references to the canvas element as well as the 2D drawing context
          var sigCanvas = document.getElementById("canvasSignature");
          var context = sigCanvas.getContext("2d");
+         context.lineWidth = 25;
          context.strokeStyle = 'Black';
  
          // This will be defined on a TOUCH device such as iPad or Android, etc.
